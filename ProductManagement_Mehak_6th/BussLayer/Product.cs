@@ -10,6 +10,7 @@ namespace ProductManagement_Mehak_6th.BussLayer
         public int ID { get; set; }
         public string Name { get; set; }
         public string Code { get; set; }
+        public string Code1 { get; set; }
         public Nullable<int> Quantity { get; set; }
         public Nullable<decimal> Price { get; set; }
         public List<ProductManager> ProductManagers { get; set; }
